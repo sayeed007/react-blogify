@@ -1,0 +1,57 @@
+/* Example dark theme styles for React Quill */
+.react-quill-dark-theme {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.react-quill-dark-theme .ql-toolbar {
+    background-color: #333;
+}
+
+.react-quill-dark-theme .ql-editor {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.ql-toolbar .ql-stroke {
+    fill: none;
+    stroke: #fff;
+}
+
+.ql-toolbar .ql-fill {
+    fill: #fff;
+    stroke: none;
+}
+
+.ql-toolbar .ql-picker {
+    color: #fff;
+}
+
+
+.ql-container.ql-snow {
+    height: 120px;
+}
+
+
+button:hover .ql-stroke,
+.ql-picker-label:hover .ql-stroke {
+    fill: none;
+    stroke: #4338CA !important;
+}
+
+.ql-active .ql-stroke {
+    fill: none;
+    stroke: #4338CA !important;
+}
+
+button:hover .ql-fill,
+.ql-picker-label:hover .ql-fill {
+    fill: #4338CA !important;
+    stroke: none;
+}
+
+.ql-active .ql-fill {
+    fill: #4338CA !important;
+    stroke: none;
+}
